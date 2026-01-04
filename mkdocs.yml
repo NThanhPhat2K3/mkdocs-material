@@ -23,16 +23,14 @@ site_name: Material for Embedded Software Engineering
 site_url: https://NThanhPhat2K3.github.io/mkdocs-material/
 theme:
   name: material
-nav:
-  - Home: index.md
-site_author: Martin Donath
+
+site_author: Nguyen Thanh Phat
 site_description: >-
-  Write your documentation in Markdown and create a professional static site in
-  minutes – searchable, customizable, in 60+ languages, for all devices
+  This material for Embedded Software Engineering
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: NThanhPhat2K3.github.io/mkdocs-material/
+repo_url: https://NThanhPhat2K3.github.io/mkdocs-material/
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2025 Martin Donath
@@ -94,13 +92,13 @@ theme:
   icon:
     logo: logo
 
-# Plugins
-plugins:
-  - blog
-  - search:
-      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - minify:
-      minify_html: true
+# # Plugins
+# plugins:
+#   - blog
+#   - search:
+#       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+#   - minify:
+#       minify_html: true
 
 # Hooks
 hooks:
